@@ -91,4 +91,7 @@ p {
     padding: 0;
     text-align: center;
   }
+  .btn-branding-outline {
+    margin-bottom: 48px;
+  }
 }
