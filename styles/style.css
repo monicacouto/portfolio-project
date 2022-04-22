@@ -76,6 +76,10 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+.nav-item {
+  padding: 0 20px;
+  line-height: 14px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -94,4 +98,15 @@ p {
   .btn-branding-outline {
     margin-bottom: 48px;
   }
+}
+
+/* ABOUT ME PAGE */
+
+.logo {
+  width: 70px;
+}
+.navbar {
+  margin: 10;
+  background-color: var(--branding-color);
+  border-bottom: 4px solid black;
 }
