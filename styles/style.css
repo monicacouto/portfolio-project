@@ -128,3 +128,7 @@ p {
   background-color: var(--branding-color);
   border-bottom: 4px solid black;
 }
+.fa-m {
+  font-size: 35px;
+  margin-left: 5px;
+}
