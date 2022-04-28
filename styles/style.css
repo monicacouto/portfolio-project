@@ -1,6 +1,6 @@
 :root {
   --branding-color: white;
-  --primary-color: #719192;
+  --primary-color: #7c9075;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -24,7 +24,7 @@ h1 {
 h2 {
   font-size: 64px;
 }
-h4{
+h4 {
   font-size: 48px;
 }
 p {
@@ -57,7 +57,6 @@ p {
   font-size: 64px;
   line-height: 80px;
 }
-
 .content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
@@ -65,7 +64,6 @@ p {
 .content h3 {
   font-size: 24px;
   line-height: 1.5;
-
   font-family: var(--default-font-family);
 }
 .content p {
@@ -107,22 +105,21 @@ footer {
   margin: 60px 0;
 }
 footer .contact-box {
-  background:#F2F2F2;
-  padding: 30px 120px;
+  background: var(--primary-color);
+  padding: 50px 120px;
   border-radius: 10px;
 }
-
 footer .contact-box p {
   margin: 0;
 }
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: var(--primary-color);
   font-size: 24px;
   text-align: center;
 }
 footer .email-link:hover {
-  color: var(--primary-color);
+  color: black;
 }
 footer .social-links a {
   margin: 0 20px;
@@ -130,9 +127,8 @@ footer .social-links a {
   font-size: 36px;
   transition: all 100ms ease-in-out;
 }
-footer .social-links a:hover{
-color:grey;
-  }
+footer .social-links a:hover {
+  color: black;
 }
 @media (max-width: 900px) {
   h1 {
@@ -156,20 +152,25 @@ color:grey;
     text-align: center;
     padding: 0;
   }
-  .fa-m {
-    font-size: 30px;
-    padding: 0;
-    color: red;
-  }
 }
 .navbar-index {
   font-size: 18px;
   margin: 10;
-  background-color: var(--branding-color);
-  border-bottom: 4px solid #b1abab;
+  background-color: #f2f2f2;
+  border-bottom: 3px solid var(--primary-color);
+}
+.navbar-about {
+  font-size: 18px;
+  margin: 10;
+  background-color: #f2f2f2;
+}
+.navbar-contact {
+  font-size: 18px;
+  margin: 10;
+  background-color: #f2f2f2;
 }
 .fa-m {
   font-size: 45px;
-  margin: 20px;
+  margin: 10px;
   color: var(--primary-color);
 }
