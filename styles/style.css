@@ -24,6 +24,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4{
+  font-size: 48px;
+}
 p {
   color: var(--branding-color);
   font-weight: normal;
@@ -103,6 +106,15 @@ p {
 footer {
   margin: 60px 0;
 }
+footer .contact-box {
+  background:#F2F2F2;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
 footer .email-link {
   text-decoration: none;
   color: black;
@@ -118,8 +130,8 @@ footer .social-links a {
   font-size: 36px;
   transition: all 100ms ease-in-out;
 }
-  footer .social-links a:hover{
-color:black;
+footer .social-links a:hover{
+color:grey;
   }
 }
 @media (max-width: 900px) {
@@ -144,12 +156,6 @@ color:black;
     text-align: center;
     padding: 0;
   }
-  .navbar-index {
-    font-size: 14px;
-    padding: 0;
-    background-color: var(--branding-color);
-    border-bottom: 1px solid #6db8d3;
-  }
   .fa-m {
     font-size: 30px;
     padding: 0;
@@ -160,7 +166,7 @@ color:black;
   font-size: 18px;
   margin: 10;
   background-color: var(--branding-color);
-  border-bottom: 4px solid #6db8d3;
+  border-bottom: 4px solid #b1abab;
 }
 .fa-m {
   font-size: 45px;
