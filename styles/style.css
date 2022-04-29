@@ -199,8 +199,23 @@ footer .social-links a:hover {
   margin: 10px;
   color: var(--primary-color);
 }
+.navbar-index {
+  font-size: 18px;
+  margin: 10;
+  background-color: #f2f2f2;
+  border-bottom: 3px solid var(--primary-color);
+}
+.navbar-about {
+  font-size: 18px;
+  margin: 10;
+  background-color: #f2f2f2;
+}
+.navbar-contact {
+  font-size: 18px;
+  margin: 10;
+  background-color: #f2f2f2;
+}
 /* EVENTS */
-
 .events-title,
 .coding-title {
   font-size: 42px;
