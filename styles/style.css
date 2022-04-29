@@ -194,6 +194,11 @@ footer .social-links a:hover {
     color: var(--primary-color);
   }
 }
+.fa-m {
+  font-size: 45px;
+  margin: 10px;
+  color: var(--primary-color);
+}
 /* EVENTS */
 
 .events-title,
@@ -221,9 +226,4 @@ img {
   width: 100%;
   border-radius: 5px;
   transition: all 0.25s ease-in-out;
-}
-/* Contact */
-.moon {
-  text-align: center;
-  width: 20%;
 }
