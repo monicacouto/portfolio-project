@@ -194,7 +194,8 @@ footer .social-links a:hover {
 
 /* EVENTS */
 
-.events-title {
+.events-title,
+.coding-title {
   font-size: 42px;
   text-align: center;
   margin: 30px;
