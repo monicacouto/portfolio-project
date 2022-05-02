@@ -140,7 +140,7 @@ footer .social-links a:hover {
   text-decoration: none;
   color: var(--primary-color);
   line-height: 2;
-  font-size: 36px;
+  font-size: 30px;
   text-align: center;
   margin-top: 50px;
 }
@@ -149,28 +149,18 @@ footer .social-links a:hover {
 }
 .fa-m {
   font-size: 45px;
-  margin: 10px;
   color: var(--primary-color);
 }
-.navbar-index {
-  font-size: 18px;
-  margin: 10;
-  background-color: #f2f2f2;
-  border-bottom: 3px solid var(--primary-color);
-}
-.navbar-about {
-  font-size: 18px;
-  margin: 10;
-  background-color: #f2f2f2;
-}
-.navbar-contact {
-  font-size: 18px;
-  margin: 10;
+.navbar {
+  font-size: 16px;
+  padding-left: 10px;
   background-color: #f2f2f2;
 }
 /* EVENTS */
 .events-title,
-.coding-title {
+.coding-title,
+.logo-title,
+.design-title {
   font-size: 42px;
   text-align: center;
   margin: 30px;
@@ -202,10 +192,20 @@ img {
     line-height: 56px;
   }
   h2 {
-    font-size: 42px;
+    font-size: 40px;
   }
   .hero {
     padding: 80px 20px;
+  }
+  .hero p {
+    font-weight: lighter;
+    line-height: 1.5;
+    font-size: 32px;
+  }
+  .hero h2 {
+    font-weight: normal;
+    line-height: 1.5;
+    font-size: 24px;
   }
   .project-description {
     padding: 0;
@@ -219,30 +219,41 @@ img {
     padding: 0;
   }
   .content h1 {
-    font-size: 58px;
+    font-size: 40px;
+    line-height: 55px;
   }
-  .navbar-index {
-    font-size: 18px;
-    margin: 10;
-    background-color: #f2f2f2;
-    border-bottom: 3px solid var(--primary-color);
-  }
-  .navbar-about {
-    font-size: 18px;
-    margin: 10;
-    background-color: #f2f2f2;
-  }
-  .navbar-contact {
-    font-size: 18px;
-    margin: 10;
+  .navbar {
+    font-size: 16px;
+    padding-left: 15px;
     background-color: #f2f2f2;
   }
   .active {
     color: var(--primary-color) !important;
   }
   .fa-m {
-    font-size: 45px;
-    margin: 10px;
+    font-size: 35px;
+    margin: 5px;
+    padding-left: 0;
     color: var(--primary-color);
+  }
+  .email-link {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 20px;
+    text-align: center;
+  }
+  .skills {
+    font-size: 30px;
+  }
+  .skills p {
+    font-size: 22px;
+  }
+  .events-title,
+  .coding-title,
+  .logo-title,
+  .design-title {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
   }
 }
