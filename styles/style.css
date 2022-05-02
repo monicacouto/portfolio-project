@@ -185,6 +185,14 @@ img {
   border-radius: 5px;
   transition: all 0.25s ease-in-out;
 }
+.open-source {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.open-source:hover {
+  text-decoration: none;
+  color: black;
+}
 
 @media (max-width: 900px) {
   h1 {
