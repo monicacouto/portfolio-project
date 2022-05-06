@@ -34,6 +34,12 @@ p {
   line-height: 30px;
   margin: 0;
 }
+video {
+  width: 1870px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: block;
+}
 .hero {
   background: var(--primary-color);
   text-align: center;
@@ -201,6 +207,12 @@ img {
   }
   h2 {
     font-size: 40px;
+  }
+  video {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: block;
   }
   .hero {
     padding: 80px 20px;
