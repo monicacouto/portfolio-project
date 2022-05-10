@@ -107,6 +107,15 @@ video {
 .project-description {
   padding: 120px 60px;
 }
+.moodboard {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 20px;
+  text-align: center;
+}
+.moodboard:hover {
+  color: black;
+}
 footer {
   margin: 60px 0;
 }
@@ -121,7 +130,7 @@ footer .contact-box p {
 .email-link {
   text-decoration: none;
   color: var(--primary-color);
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
 }
 .email-link:hover {
@@ -170,6 +179,10 @@ footer .social-links a:hover {
   font-size: 42px;
   text-align: center;
   margin: 30px;
+}
+.events-subtitle {
+  font-size: 34px;
+  color: black;
 }
 .grid-container {
   columns: 3 200px;
@@ -265,7 +278,7 @@ img {
   .email-link {
     text-decoration: none;
     color: var(--primary-color);
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
   }
   .skills {
@@ -281,5 +294,14 @@ img {
     font-size: 30px;
     text-align: center;
     margin: 20px;
+  }
+  .events-subtitle {
+    font-size: 22px;
+  }
+  .moodboard {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 16px;
+    text-align: center;
   }
 }
